@@ -1,0 +1,29 @@
+h1 {
+  color: blue;
+  background-color: green;
+}
+p {
+  color: red;
+  background-color: yellow;
+}
+a {
+  color: red;
+}
+a:hover {
+  color: yellow;
+}
+a:visited {
+  color: green;
+}
+#boldedparagraph {
+  color: green;
+}
+#divlist {
+  color: blue;
+}
+.Areaofemphasis {
+  color: pink;
+}
+.turnpink {
+  color: pink;
+}
