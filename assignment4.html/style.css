@@ -1,0 +1,64 @@
+p {
+  color: red;
+  background-color: yellow;
+}
+a {
+  color: red;
+}
+a:hover {
+  color: yellow;
+}
+a:visited {
+  color: green;
+}
+#boldedparagraph {
+  color: green;
+}
+#divlist {
+  color: blue;
+}
+.Areaofemphasis {
+  color: pink;
+}
+.turnpink {
+  color: pink;
+}
+body {
+  font-family: sans-serif;
+  background-image: url(Background.jpg);
+}
+#boldedparagraph {
+  text-align: center;
+}
+#italicizedparagraph {
+  text-align: center;
+}
+#Coursetitle {
+  text-align: center;
+}
+#Justify {
+  text-align: justify;
+}
+header {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+.ISUlogo {
+border: 8px solid #000000;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+background-color: #ffffff;
+}
+.Requirements {
+border: 8px solid #000000;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+background-color: #ffffff;
+}
+.Courses {
+border: 8px solid #000000;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+background-color: #ffffff;
+}
