@@ -1,0 +1,39 @@
+a {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+h1 {
+  color: white;
+}
+header {
+  background-color: lightblue;
+}
+h2 {
+  color: blue;
+}
+.turnorange {
+  color: orange;
+}
+#red {
+  color: red;
+}
+.inferno {
+  background-color: yellow;
+}
+#lightgreen {
+  background-color: lightgreen;
+}
+.father {
+  background-color: darkgreen;
+  color: yellow;
+}
+#notfire {
+  background-color: yellow;
+}
+h5 {
+  color: red;
+}
