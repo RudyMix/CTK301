@@ -1,0 +1,114 @@
+body {
+  background-color: #999999;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  background-color: #eb4a2a;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 12px;
+  margin-bottom: 24px;
+}
+
+/* Navigation */
+nav {
+  grid-column: span 12;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  border: 0px solid #000000;
+  padding: 12px;
+  margin: 20px;
+  width: 330px;
+  background-color: #eb4a2a;
+}
+
+nav li a {
+  color: #ffffff;
+  display: block;
+  border: 0px solid #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* Main */
+main {
+  grid-column: span 12;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 24px;
+}
+  /* Making stuff side by side */
+.floatimage {
+  float: right;
+  margin-left: 106px;
+}
+  /*Back to the main stuff */
+article {
+  text-align: justify;
+}
+.container {
+  display: flex;
+}
+.ul1 {
+  flex: 1;
+}
+
+.ul2 {
+  flex: 1;
+}
+
+.ul3 {
+  flex: 1;
+}
+
+section {
+  grid-column: span 12;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+section li {
+  display: inline-block;
+  border: 0px solid #000000;
+  padding: 12px;
+  margin: 20px;
+  width: 330px;
+  background-color: #be38d6;
+}
+
+section li a {
+  color: #ffffff;
+  display: block;
+  border: 0px solid #000000;
+  padding: 5px;
+  text-decoration: none;
+}
